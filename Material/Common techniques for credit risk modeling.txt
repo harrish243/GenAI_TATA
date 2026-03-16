@@ -1,0 +1,42 @@
+Common techniques for credit risk modeling
+Now that you understand how GenAI assists in predictive modeling, let's expand further on three commonly used techniques for credit risk assessment. Each has strengths and trade-offs, and your task will involve choosing the most suitable model for predicting delinquency risk.
+
+1. Decision trees – easy to interpret, great for risk assessment
+Decision trees split data into branches based on key features (e.g., income level, number of missed payments). At each step, the model asks a yes or no question, guiding decisions down different paths.
+
+Why use it for credit risk?
+
+Transparency – Easy to explain to stakeholders.
+Handles different types of data well – Works with both numerical and categorical data.
+Identifies key risk factors – Shows which customer attributes are most predictive of delinquency.
+💡 Example GenAI prompt:
+"Generate a decision tree model to predict delinquency risk based on income, credit utilization, and missed payments. Explain how the model determines risk categories."
+
+2. Logistic regression – simple, reliable, and great for probability estimation
+Logistic regression predicts the probability of an event occurring, such as whether a customer will or won’t become delinquent. It assigns a probability score (0 to 1), where a threshold (e.g., 0.5) determines classification.
+
+Why use it for credit risk?
+
+Great for binary predictions (e.g., delinquent vs. non-delinquent).
+Easy to interpret – Shows the impact of each variable on the outcome.
+Works well with structured data – Suitable for datasets with clear numerical patterns.
+💡 Example GenAI prompt:
+"Explain how logistic regression can be used to predict credit card delinquency. Generate a simple model using income, debt-to-income ratio, and payment history."
+
+3. Neural networks – powerful for complex patterns but harder to interpret
+Neural networks mimic the way human brains process information. They detect complex relationships between variables, making them highly effective for large datasets. However, they operate like a "black box," meaning their decision-making process is less transparent.
+
+Why use it for credit risk?
+
+Can uncover deep patterns in customer financial behavior.
+More accurate on large datasets than simpler models.
+Useful for predicting long-term credit risk trends.
+💡 Example GenAI prompt:
+"Create a basic neural network model for predicting delinquency risk. Compare its strengths and weaknesses against decision trees and logistic regression."
+
+Which model should you choose?
+Each model has strengths and trade-offs. In this task, your goal is to choose the best approach based on Geldium’s dataset and business needs.
+
+✅ Use decision trees if you need transparency and clear risk segmentation.
+✅ Use logistic regression if you need a probability-based approach that is easy to interpret.
+✅ Use neural networks if you have a complex dataset and need high accuracy at the cost of explainability.

@@ -1,0 +1,29 @@
+Evaluating model performance
+Now that you've explored different modeling techniques for predicting delinquency, it’s crucial to assess how well your chosen model performs and whether it produces fair and explainable results. A model that accurately predicts risk but lacks transparency or fairness can create serious ethical and business risks.
+
+This section will guide you through evaluating model accuracy and reliability while considering bias, explainability, and fairness—all essential for making responsible AI-driven decisions in financial services.
+
+A predictive model is only useful if it produces reliable and actionable insights. To measure this, financial analysts and data scientists use key evaluation metrics to determine how well a model identifies high-risk customers while minimizing false predictions.
+
+1. Key metrics for model evaluation
+Each metric provides a different perspective on model effectiveness. It’s important to use multiple metrics together rather than relying on a single score:
+
+Accuracy – Measures the overall correctness of the model by dividing correct predictions by the total number of cases.
+Precision (positive predictive value) – Evaluates how many of the customers predicted to be delinquent actually are.
+Recall (sensitivity) – Measures how many actual delinquent customers were correctly identified by the model. High recall is important when missing a delinquent customer could result in financial loss.
+F1 score – A weighted balance between precision and recall. It is useful when both false positives and false negatives are costly.
+AUC-ROC curve (area under the receiver operating characteristic curve) – Assesses how well the model distinguishes between delinquent and non-delinquent customers. A score close to 1 means the model is highly effective at ranking risk levels, while a score near 0.5 suggests the model is no better than random guessing.
+Confusion matrix – A visual breakdown of actual vs. predicted classifications. It helps diagnose specific types of errors and determine whether the model is favoring one outcome over another.
+💡Example GenAI prompt:
+"Evaluate the performance of my credit risk model using precision, recall, and F1 score. Suggest improvements if needed."
+
+2. What to do if model performance is poor
+If your model is not performing well, there are several ways to improve it:
+
+Feature engineering – Adjust the dataset by adding or removing variables that may be impacting model predictions. For example, including customer tenure or past delinquency trends may enhance predictive power.
+Rebalancing the dataset – If the dataset is highly skewed (e.g., 95% non-delinquent, 5% delinquent), oversampling delinquent cases or undersampling non-delinquent cases can improve results.
+Trying different models – Some algorithms work better with certain data structures. If logistic regression is underperforming, a decision tree may provide better results.
+Hyperparameter tuning – Fine-tuning model parameters, such as adjusting the threshold for delinquency classification, can improve precision and recall scores.
+By applying these strategies, you can refine the predictive model, making it more effective and reliable for Geldium’s credit risk assessments.
+
+

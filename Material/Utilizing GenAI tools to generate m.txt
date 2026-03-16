@@ -1,0 +1,27 @@
+Utilizing GenAI tools to generate model code and refine predictions
+GenAI tools like ChatGPT, Google Gemini, and DeepSeek are transforming the way predictive modeling is conducted, enabling analysts to build and refine models without writing complex code. These tools can assist with model selection, code generation, performance evaluation, and troubleshooting, making AI-driven predictions more accessible to non-programmers.
+
+1. How GenAI assists in model development
+GenAI tools can assist in generating model code in Python, R, or SQL based on simple text-based prompts. While these tools can streamline the coding process, they do not eliminate the need for analysts to understand the underlying logic. AI-generated code may require adjustments, optimization, or debugging to ensure it meets industry standards and performs as expected.
+
+Example use cases:
+
+Generating a model framework – A user can request a logistic regression model for predicting delinquency, and GenAI will provide an initial code structure. However, it is essential to review, test, and refine the code to ensure correctness and efficiency. 
+Feature selection assistance – GenAI can recommend which variables to include based on the dataset. However, analysts must verify that these selections do not introduce bias or proxy discrimination.
+Hyperparameter tuning – Analysts can optimize model performance by asking for parameter adjustments. While GenAI can suggest modifications, empirical testing and expert judgment are necessary to validate improvements.
+💡Example GenAI prompt:
+"Generate a logistic regression model using this dataset to predict customer delinquency. Include preprocessing steps and evaluation metrics."
+
+2. Refining and improving model predictions
+After generating a model, it’s crucial to refine predictions to ensure accuracy and fairness. GenAI tools can:
+
+Suggest modifications to improve precision and recall.
+Evaluate model outputs and identify overfitting or biases.
+Generate alternative models to compare performance.
+💡Example GenAI prompt:
+"Analyze this model’s performance and suggest improvements to increase accuracy and reduce bias."
+
+By leveraging GenAI in this way, analysts can efficiently develop, refine, and validate predictive models, ensuring they are both effective and ethical in credit risk assessment.
+
+
+

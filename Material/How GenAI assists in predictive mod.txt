@@ -1,0 +1,30 @@
+How GenAI assists in predictive modeling
+GenAI simplifies the predictive modeling process by guiding users through key steps.
+
+1. Selecting the right model type
+Predictive modeling involves choosing the best algorithm for the task. GenAI can analyze dataset characteristics and recommend the most suitable techniques. However, understanding these models yourself is key to making an informed decision.
+
+Decision trees – Good for explaining why a prediction was made.
+Logistic regression – Useful for predicting binary outcomes (e.g., delinquent vs. non-delinquent).
+Neural networks – Effective for complex patterns but harder to interpret.
+We will explore these models further in the next section to help you select the right approach for this task.
+
+💡 Example GenAI prompt:
+"Based on this dataset, which predictive modeling techniques are best suited for identifying customers likely to miss payments? Explain why."
+
+2. Generating model code without coding
+With the right prompts, GenAI can generate an initial modeling workflow in Python, R, or SQL. However, these outputs should be viewed as a starting point—manual review and refinement are essential to ensure alignment with best practices..
+
+💡 Example GenAI prompt:
+"Generate a logistic regression model framework using this dataset to predict customer delinquency. Provide an explanation of each step, ensuring outputs are reviewed and refined for accuracy and fairness."
+
+3. Evaluating model performance
+Once a model is built, its accuracy must be assessed. GenAI can:
+
+Suggest evaluation metrics (e.g., accuracy, precision, recall).
+Interpret results and suggest improvements.
+Highlight ethical concerns, such as potential biases.
+💡 Example GenAI prompt:
+"Evaluate the performance of this predictive model using precision and recall. Identify any biases in the predictions."
+
+By using GenAI-powered modeling, analysts can efficiently build and refine predictive models without needing a technical background, making AI-powered decision-making more accessible in financial services.
