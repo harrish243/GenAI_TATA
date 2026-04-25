@@ -45,5 +45,4 @@ Contains practical tasks and datasets:
 Feel free to contribute improvements or additional materials to this project.
 
 ## License
-
 This project is for educational purposes.
